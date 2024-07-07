@@ -253,22 +253,11 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
    ˡᶦᵏᵉ ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ  ˢʰᵃʳᵉ</a></b>"""
 
 
-    IMDB_TEMPLATE_TXT = """
-<b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
-
-🧿 {title}</b>
-
-<b>⭐ {rating} | ⏰ {runtime} Minutes
-📆 {release_date}
-🕵️ {director}
-
-●  {languages}
-●  {genres}
-
-📖 {plot}
-
-💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}</b>
-"""
+    IMDB_TEMPLATE_TXT = """<b>
+📟 Mᴏᴠɪᴇ ɴᴀᴍᴇ:- {title}
+🙋‍♂ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:- {message.from_user.mention}
+👨‍👩‍👧‍👦 Gʀᴏᴜᴘ:- {message.chat.title}
+⏱️ Rᴇꜱᴜʟᴛ ꜱʜᴏᴡɴ ɪɴ:- {remaining_seconds}</b>"""
     
 
     RESTART_TXT = """
